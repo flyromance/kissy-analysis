@@ -1,4 +1,4 @@
-# KISSY
+# kissy-action
 
 > A Powerful Collection Of Modules
 
