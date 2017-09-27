@@ -9,8 +9,12 @@ app.engine('html', ejs.__express);
 app.set('view engin', 'html');
 
 
-app.get('/test', function (req, res) {
-	res.render('test.html');
+app.get('/cdn', function (req, res) {
+	res.render('cdn.html');
+});
+
+app.get('/local', function (req, res) {
+	res.render('local.html');
 });
 
 
