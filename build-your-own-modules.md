@@ -3,10 +3,9 @@
 KISSY 5 is a collection of independent modulex modules now, if you do not like all of its modules in KISSY 5,
 you can build your own modules, as a bonus, you can control each module's version.
 
-
 ## create bower.json
 
-Create bower.json and fill its ``dependencies`` field with the specified versioned modules you what.
+Create bower.json and fill its `dependencies` field with the specified versioned modules you what.
 
 For example: I only want to use loader and anim module
 
@@ -22,7 +21,7 @@ For example: I only want to use loader and anim module
 
 ## create package.json
 
-Require ``aggregate-bower`` modules
+Require `aggregate-bower` modules
 
 For example:
 
@@ -49,4 +48,4 @@ bower install
 node build
 ```
 
-The files in ``build/`` folder is what you want, you can load ``build/seed.js`` and use your own custom kissy version.
+The files in `build/` folder is what you want, you can load `build/seed.js` and use your own custom kissy version.

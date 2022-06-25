@@ -1,26 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <!-- min.js设置debug为false, base为/kissy/ -->
+    <script src="/kissy/seed-min.js" data-config=""></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-  <!-- min.js设置debug为false, base为/kissy/ -->
-  <script src="/kissy/seed-min.js" data-config=""></script>
-</head>
+  <body>
+    <script>
+      KISSY.config({
+        base: "/kissy/",
+        // base: "//g.alicdn.com/kissy/k/1.4.7/",
+        // debug: true, // 加载min.js文件
+        // combine: true, // 设置为combine模式
+      });
 
-<body>
-  <script>
-  KISSY.config({
-  	base: '//g.alicdn.com/kissy/k/1.4.7/',
-  	// base: '/kissy/',
-  	debug: true, // 加载min.js文件
-  	combine: true // 设置为combine模式
-  });
-
-  KISSY.use(['node'], function(S, node) {
-
-  })
-  </script>
-</body>
-
+      KISSY.use(["node"], function (S, node) {});
+    </script>
+  </body>
 </html>
